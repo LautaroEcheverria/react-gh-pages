@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  position: relative; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.App-header {
+  background-color: #1b1d1f;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: middle;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.TitleApp {
+  margin-left: 10%;
+  margin-top: 1%;
+  font-size: 20px;
+  justify-content: left;
+  text-align: left;
+  width: 30%;
+}
+
+.CardsApp {
+  margin-left: 5%;
+  justify-content: right;
+  font-size: 16px;
+  width: 70%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-right: 5%;
+}
+
+a:hover {
+  color: gray;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

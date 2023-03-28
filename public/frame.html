@@ -1,0 +1,11 @@
+<label for="fname">Email:</label><br>
+<input type="text" id="fname" name="fname"><br><br>
+<button type="button" onclick="submitButton()">Submit</button>
+
+<script>
+    function submitButton(){
+        var a = document.getElementById("fname").value.toString();
+        document.getElementById("fname").value = "";
+        parent.postMessage(a, 'http://localhost:3000');
+    }
+</script>

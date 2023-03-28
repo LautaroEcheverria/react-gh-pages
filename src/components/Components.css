@@ -1,0 +1,43 @@
+.Card { 
+  align-items: left;
+  border-style: solid;
+  margin: 3%;
+  width: 25%;
+  background-color: rgb(240, 240, 240);
+}
+
+.CardPurchaseEvent { 
+  align-items: left;
+  border-style: solid;
+  margin: 3%;
+  width: 70%;
+  background-color: rgb(240, 240, 240);
+}
+
+.CardPageView {
+  align-items: left;
+  border-style: solid;
+  margin: 3%;
+  width: 30%;
+  background-color: rgb(240, 240, 240);
+}
+
+.ButtonCard {
+  align-items: right;
+  display: flex;
+  align-content: flex-end;
+  text-align: end;
+}
+
+input {
+  float: right;
+}
+
+.InputIdSync {
+  margin-right: 10%;
+}
+
+.InputPurchaseEvent {
+  margin-right: 15px;
+}
+
